@@ -27,57 +27,57 @@ const Footer = () => {
             Services
           </h5>
           <div className="mb-[18px]">
-            <a href="#" className="text-[#9ee8ff] font-normal text-base">
+            <span className="text-[#9ee8ff] font-normal text-base">
               SEO for Small Business
-            </a>
+            </span>
           </div>
           <div className="mb-[18px]">
-            <a href="#" className="text-[#9ee8ff] font-normal text-base">
+            <span className="text-[#9ee8ff] font-normal text-base">
               SEO for Local Services
-            </a>
+            </span>
           </div>
           <div className="mb-[18px]">
-            <a href="#" className="text-[#9ee8ff] font-normal text-base">
+            <span className="text-[#9ee8ff] font-normal text-base">
               Enterprise SEO
-            </a>
+            </span>
           </div>
           <div className="mb-[18px]">
-            <a href="#" className="text-[#9ee8ff] font-normal text-base">
+            <span className="text-[#9ee8ff] font-normal text-base">
               National SEO
-            </a>
+            </span>
           </div>
           <div className="mb-[18px]">
-            <a href="#" className="text-[#9ee8ff] font-normal text-base">
+            <span className="text-[#9ee8ff] font-normal text-base">
               International SEO
-            </a>
+            </span>
           </div>
         </div>
         <div>
           <h5 className="text-white text-[20px] font-bold mb-[30px]">Learn</h5>
           <div className="mb-[18px]">
-            <a href="#" className="text-[#9ee8ff] font-normal text-base">
+            <span className="text-[#9ee8ff] font-normal text-base">
               Why SEO Matters
-            </a>
+            </span>
           </div>
           <div className="mb-[18px]">
-            <a href="#" className="text-[#9ee8ff] font-normal text-base">
+            <span className="text-[#9ee8ff] font-normal text-base">
               How to Choose an Agency
-            </a>
+            </span>
           </div>
           <div className="mb-[18px]">
-            <a href="#" className="text-[#9ee8ff] font-normal text-base">
+            <span className="text-[#9ee8ff] font-normal text-base">
               Keyword Research Explained
-            </a>
+            </span>
           </div>
           <div className="mb-[18px]">
-            <a href="#" className="text-[#9ee8ff] font-normal text-base">
+            <span className="text-[#9ee8ff] font-normal text-base">
               On Page SEO Explained
-            </a>
+            </span>
           </div>
           <div className="mb-[18px]">
-            <a href="#" className="text-[#9ee8ff] font-normal text-base">
+            <span className="text-[#9ee8ff] font-normal text-base">
               Off Page SEO Explained
-            </a>
+            </span>
           </div>
         </div>
         <div>
@@ -85,29 +85,29 @@ const Footer = () => {
             Company
           </h5>
           <div className="mb-[18px]">
-            <a href="#" className="text-[#9ee8ff] font-normal text-base">
+            <span className="text-[#9ee8ff] font-normal text-base">
               About Company
-            </a>
+            </span>
           </div>
           <div className="mb-[18px]">
-            <a href="#" className="text-[#9ee8ff] font-normal text-base">
+            <span className="text-[#9ee8ff] font-normal text-base">
               IFor Customers
-            </a>
+            </span>
           </div>
           <div className="mb-[18px]">
-            <a href="#" className="text-[#9ee8ff] font-normal text-base">
+            <span className="text-[#9ee8ff] font-normal text-base">
               {"SEO Blog & News"}
-            </a>
+            </span>
           </div>
           <div className="mb-[18px]">
-            <a href="#" className="text-[#9ee8ff] font-normal text-base">
+            <span className="text-[#9ee8ff] font-normal text-base">
               {"Careers & Reviews"}
-            </a>
+            </span>
           </div>
           <div className="mb-[18px]">
-            <a href="#" className="text-[#9ee8ff] font-normal text-base">
+            <span className="text-[#9ee8ff] font-normal text-base">
               {"Sitemap"}
-            </a>
+            </span>
           </div>
         </div>
         <div>

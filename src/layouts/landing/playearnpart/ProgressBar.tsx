@@ -5,11 +5,11 @@ const ProgressBar = (props: any) => {
     <div className="pb-[5px]">
       <div className="flex justify-between text-white font-semibold text-base pb-[10px]">
         <p>{props.title}</p>
-        <p>{props.percent}%</p>
+        <p>{props.label}</p>
       </div>
       <div className="bg-[#003F99] h-[10px] rounded-full">
         <div
-          className={`w-[${props.percent}%] h-[10px] bg-[#FF850E] rounded-full`}
+          className={`${props.percent} h-[10px] bg-[#FF850E] rounded-full`}
         />
       </div>
     </div>

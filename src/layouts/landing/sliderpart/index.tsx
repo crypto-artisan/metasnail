@@ -22,19 +22,39 @@ const SliderPart = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={slider1} alt="slider1" />
+          <img
+            src={slider1}
+            alt="slider1"
+            className="cursor-pointer hover:brightness-[130%]"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slider2} alt="slider2" />
+          <img
+            src={slider2}
+            alt="slider2"
+            className="cursor-pointer hover:brightness-[130%]"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slider3} alt="slider3" />
+          <img
+            src={slider3}
+            alt="slider3"
+            className="cursor-pointer hover:brightness-[130%]"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slider4} alt="slider4" />
+          <img
+            src={slider4}
+            alt="slider4"
+            className="cursor-pointer hover:brightness-[130%]"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slider5} alt="slider5" />
+          <img
+            src={slider5}
+            alt="slider5"
+            className="cursor-pointer hover:brightness-[130%]"
+          />
         </SwiperSlide>
       </Swiper>
     </SliderPartDiv>

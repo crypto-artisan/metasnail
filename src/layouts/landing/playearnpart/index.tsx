@@ -89,13 +89,13 @@ const PlayEarnPart = () => {
             </h1>
           </div>
           <div className="w-[90%] ml-auto">
-            <ProgressBar title="Marketing" percent="5" />
-            <ProgressBar title="Team" percent="5" />
-            <ProgressBar title="Gaming Pool" percent="20" />
-            <ProgressBar title="Stacking" percent="5" />
-            <ProgressBar title="Airdrop" percent="5" />
-            <ProgressBar title="Private sale" percent="10" />
-            <ProgressBar title="Presale" percent="50" />
+            <ProgressBar title="Marketing" percent="w-[5%]" label="5%" />
+            <ProgressBar title="Team" percent="w-[5%]" label="5%" />
+            <ProgressBar title="Gaming Pool" percent="w-[20%]" label="20%" />
+            <ProgressBar title="Stacking" percent="w-[5%]" label="5%" />
+            <ProgressBar title="Airdrop" percent="w-[5%]" label="5%" />
+            <ProgressBar title="Private sale" percent="w-[10%]" label="10%" />
+            <ProgressBar title="Presale" percent="w-[50%]" label="50%" />
           </div>
         </div>
       </EcosystemDiv>
