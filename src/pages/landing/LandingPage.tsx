@@ -9,6 +9,7 @@ import HowToPart from "layouts/landing/howtopart";
 import RoadMapPart from "layouts/landing/roadmappart";
 
 import { HowToRoadMapDiv } from "layouts/landing/howtopart/howto.styled";
+import SalesStagePart from "layouts/landing/salespart";
 
 const LandingPage = () => {
   return (
@@ -25,6 +26,7 @@ const LandingPage = () => {
           <RoadMapPart />
         </div>
       </HowToRoadMapDiv>
+      <SalesStagePart />
     </div>
   );
 };

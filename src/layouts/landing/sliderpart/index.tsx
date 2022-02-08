@@ -10,7 +10,8 @@ import { SliderPartDiv } from "./sliderpart.styled";
 
 const SliderPart = () => {
   return (
-    <SliderPartDiv className="border-t border-b bg-no-repeat mix-blend-lighten border-[white] bg-[#0049B1]">
+    // <SliderPartDiv className="border-t border-b bg-no-repeat mix-blend-lighten border-[white] bg-[#0049B1]">
+    <SliderPartDiv className="mix-blend-darken border-t border-b border-[white] ">
       <Swiper
         slidesPerView={5}
         spaceBetween={30}
@@ -21,19 +22,19 @@ const SliderPart = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={slider1} />
+          <img src={slider1} alt="slider1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slider2} />
+          <img src={slider2} alt="slider2" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slider3} />
+          <img src={slider3} alt="slider3" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slider4} />
+          <img src={slider4} alt="slider4" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slider5} />
+          <img src={slider5} alt="slider5" />
         </SwiperSlide>
       </Swiper>
     </SliderPartDiv>

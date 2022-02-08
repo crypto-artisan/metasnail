@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
 import introBG from "assets/hert.jpg";
 import introOverlay from "assets/bg-banner-home7.png";

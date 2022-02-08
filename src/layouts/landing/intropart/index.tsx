@@ -25,6 +25,8 @@ import CardBtn1 from "assets/buttons/coinmarketcap-kiradoge.png";
 import CardBtn2 from "assets/buttons/coingecko.png";
 import ChartBtn from "assets/buttons/chart.png";
 import PlayBtn from "assets/buttons/Play.png";
+import BuyBtn from "assets/buttons/buy-coin.png";
+import MintBtn from "assets/buttons/mint NFT.png";
 
 const IntroPart = () => {
   return (
@@ -41,12 +43,16 @@ const IntroPart = () => {
             <h6 className="text-xs font-bold relative pl-5 pb-3">
               METAS /NAIL CONTRACT ADDRESS :
             </h6>
-            <h2 className="text-white text-base font-black relative mb-5">
+            <h2 className="text-white text-base font-black relative mb-4">
               0x00e1656e45f18ec6747f5a8496fd39b50b38396d
             </h2>
             <div className="relative flex justify-between">
-              <img src={ChartBtn} className="w-[45%]" />
-              <img src={PlayBtn} className="w-[45%]" />
+              <img src={ChartBtn} className="w-[47%]" alt="ChartBtn" />
+              <img src={PlayBtn} className="w-[47%]" alt="PlayBtn" />
+            </div>
+            <div className="relative flex justify-between">
+              <img src={BuyBtn} className="w-[47%]" alt="ChartBtn" />
+              <img src={MintBtn} className="w-[47%]" alt="PlayBtn" />
             </div>
           </IntroText>
         </div>

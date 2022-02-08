@@ -8,11 +8,13 @@ import LandingPage from "pages/landing/LandingPage";
 // Import css
 import "swiper/css";
 import "swiper/css/pagination";
+import Footer from "layouts/footer/Footer";
 
 function App() {
   return (
     <Router>
       <Route exact path="/" component={LandingPage} />
+      <Footer />
     </Router>
   );
 }
