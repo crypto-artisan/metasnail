@@ -16,27 +16,246 @@ const RoadMapPart = () => {
       <div className="roadmap-accordion">
         <Accordion defaultActiveKey="0">
           <Accordion.Item eventKey="0">
-            <Accordion.Header className="">Accordion Item #1</Accordion.Header>
+            <Accordion.Header className="">Q1</Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/2714.svg"
+                />{" "}
+                <span className="text-white">Website launch</span>
+              </p>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/2714.svg"
+                />{" "}
+                <span className="text-white">contract security audit </span>
+              </p>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/2714.svg"
+                />{" "}
+                <span className="text-white">Team KYC</span>
+              </p>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/2714.svg"
+                />{" "}
+                <span className="text-white">
+                  Metasnails Token Private sale and NFT presale{" "}
+                </span>
+              </p>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
+                />{" "}
+                <span className="text-white">NFT market Place </span>
+              </p>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
+                />{" "}
+                <span className="text-white">
+                  Launch MS coin LP lock 1 year
+                </span>
+              </p>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header>Accordion Item #2</Accordion.Header>
+            <Accordion.Header>Q2</Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
+                />{" "}
+                <span className="text-white">Listing on CMC and CGK</span>
+              </p>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
+                />{" "}
+                <span className="text-white">blockfolio Listing</span>
+              </p>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
+                />{" "}
+                <span className="text-white">
+                  Beta Testers Program start and game testing
+                </span>
+              </p>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
+                />{" "}
+                <span className="text-white">
+                  Launch Metasnail game on web browser
+                </span>
+              </p>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
+                />{" "}
+                <span className="text-white">expand partnerships</span>
+              </p>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
+                />{" "}
+                <span className="text-white">
+                  launch Metasnails game on Windows PC
+                </span>
+              </p>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="2">
+            <Accordion.Header>Q3</Accordion.Header>
+            <Accordion.Body>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
+                />{" "}
+                <span className="text-white">Token Staking</span>
+              </p>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
+                />{" "}
+                <span className="text-white">NFT stacking </span>
+              </p>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
+                />{" "}
+                <span className="text-white">Users NFT marketplace</span>
+              </p>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
+                />{" "}
+                <span className="text-white">2nd security audit</span>
+              </p>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
+                />{" "}
+                <span className="text-white">Dxtools CMC CGK Trending</span>
+              </p>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
+                />{" "}
+                <span className="text-white">Expand Metasnails game modes</span>
+              </p>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="3">
+            <Accordion.Header>Q4</Accordion.Header>
+            <Accordion.Body>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
+                />{" "}
+                <span className="text-white">1st Giveaway</span>
+              </p>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
+                />{" "}
+                <span className="text-white">NFT contest</span>
+              </p>
+              <p className="mb-[20px] text-base">
+                <img
+                  draggable="false"
+                  role="img"
+                  className="emoji"
+                  alt="✔"
+                  src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
+                />{" "}
+                <span className="text-white">Listing on CEX</span>
+              </p>
+              <p className="mb-[20px] text-base">
+                <span className="text-white">Roadmap Update</span>
+              </p>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>

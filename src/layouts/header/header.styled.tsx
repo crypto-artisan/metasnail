@@ -78,4 +78,46 @@ export const HeaderDiv = styled.div`
       }
     }
   }
+  .sub-show {
+    transition: all 0.5s;
+    top: 80px;
+    opacity: 1;
+    z-index: 3;
+    visibility: visible;
+  }
+
+  .sub-hide {
+    transition: all 0.5s;
+    opacity: 0;
+    top: 120px;
+    z-index: -9999;
+    visibility: hidden;
+  }
+
+  .menu-hover {
+    transition: 0.3s all;
+    :hover {
+      padding-left: 15px;
+      color: #00c3ff;
+      :before {
+        left: 0;
+        opacity: 1;
+      }
+    }
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    :before {
+      transition: 0.3s all;
+      position: absolute;
+      opacity: 0;
+      content: "";
+      left: -15px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: #00c3ff;
+    }
+  }
 `;

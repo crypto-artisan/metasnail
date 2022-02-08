@@ -21,7 +21,7 @@ export const RoadMapDiv = styled.div`
       background-color: #ffffff33;
     }
     .accordion-button {
-      padding: 13px 10px 13px 25px;
+      padding: 20px 10px 20px 25px;
       font-size: 21px;
       font-weight: 500;
       background-color: #fb7905;
@@ -41,6 +41,24 @@ export const RoadMapDiv = styled.div`
     .accordion-collapse.collapse {
       transition: all 0.3s;
       background-color: #fb7905;
+    }
+    .accordion-body {
+      background-color: #fb7905;
+      padding: 0 25px 20px;
+      .emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+    }
+    .accordion-button:not(.collapsed) {
+      box-shadow: none !important;
     }
   }
 `;
