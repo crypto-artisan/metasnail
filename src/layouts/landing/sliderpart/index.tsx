@@ -10,7 +10,6 @@ import { SliderPartDiv } from "./sliderpart.styled";
 
 const SliderPart = () => {
   return (
-    // <SliderPartDiv className="border-t border-b bg-no-repeat mix-blend-lighten border-[white] bg-[#0049B1]">
     <SliderPartDiv className="mix-blend-darken border-t border-b border-[white] ">
       <Swiper
         slidesPerView={5}
@@ -19,6 +18,7 @@ const SliderPart = () => {
         loop={true}
         loopFillGroupWithBlank={true}
         navigation={true}
+        autoplay={true}
         className="mySwiper"
       >
         <SwiperSlide>

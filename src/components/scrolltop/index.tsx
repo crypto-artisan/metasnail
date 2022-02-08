@@ -64,9 +64,6 @@ const ScrollTop = () => {
     ) {
       isMounted && setEnable(true);
       clearTimeout(timeout);
-      //   timeout = setTimeout(() => {
-      //     isMounted && setEnable(false);
-      //   }, 2000);
     } else {
       isMounted && setEnable(false);
     }
