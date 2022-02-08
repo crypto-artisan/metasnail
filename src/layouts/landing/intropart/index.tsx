@@ -70,7 +70,7 @@ const IntroPart = () => {
               and mint your Heros NFTs before launch !!
             </p>
             <div className="flex items-center">
-              <BtnGetMyDiscount className="bg-[#fe4c1c] h-fit text-white uppercase rounded-full text-base relative font-bold flex items-center p-[5px] border-x border-[#fe4c1c] cursor-pointer">
+              <BtnGetMyDiscount className="anim-btn bg-[#fe4c1c] h-fit text-white uppercase rounded-full text-base relative font-bold flex items-center p-[5px] border-x border-[#fe4c1c] cursor-pointer">
                 <span className="px-4">GET MY DISCOUNT</span>
                 <div className="p-3 bg-white text-[#fe4c1c] rounded-full">
                   <HiArrowNarrowRight />

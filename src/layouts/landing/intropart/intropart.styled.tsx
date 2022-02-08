@@ -40,26 +40,6 @@ export const BtnGetMyDiscount = styled.div`
   contain: content;
   transition: 0.5s all;
   box-shadow: 8px 8px 18px 0px rgb(254 76 28 / 30%);
-  :before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    transition: all 0.5s;
-    opacity: 1;
-    transform: translate(-105%, 0);
-    background-color: rgba(255, 255, 255, 0.8);
-  }
-  :hover {
-    box-shadow: none;
-    :before {
-      transform: translate(0, 0);
-      opacity: 0;
-    }
-  }
 `;
 
 export const BtnHowItworks = styled.div`
