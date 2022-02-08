@@ -4,14 +4,15 @@ import { IoIosArrowDown } from "react-icons/io";
 
 import logo from "assets/buttons/preloader.png";
 import playbtn from "assets/buttons/Play.png";
-import { HeaderDiv } from "./header.styled";
-import { HiArrowNarrowRight } from "react-icons/hi";
+import { HeaderDiv, MobileHeader } from "./header.styled";
 import { AiFillFire } from "react-icons/ai";
 import { IoMenu } from "react-icons/io5";
 
 const Header = () => {
   const [y, setY] = useState(0);
   const [sub, setSub] = useState("");
+  const [mobile, setMobile] = useState(false);
+  const [menu, setMenu] = useState(false);
 
   const handleNavigation = useCallback(
     (e) => {
@@ -32,6 +33,16 @@ const Header = () => {
     },
     [y]
   );
+
+  useEffect(() => {
+    window.addEventListener("resize", () =>
+      setMobile(window.innerWidth > 1024 ? false : true)
+    );
+    setMobile(window.innerWidth > 1024 ? false : true);
+    return () => {
+      window.removeEventListener("resize", () => {});
+    };
+  }, []);
 
   useEffect(() => {
     setY(window.scrollY);
@@ -203,10 +214,21 @@ const Header = () => {
         </div>
         <div className="lg:hidden block self-center">
           <span className="w-[50px] h-[50px] bg-white rounded-full text-[25px] cursor-pointer flex justify-center items-center">
-            <IoMenu />
+            <IoMenu onClick={() => setMenu(true)} />
           </span>
         </div>
       </div>
+      {mobile && (
+        <MobileHeader show={menu}>
+          <div
+            className="mobile-header-overlay fixed w-full h-full top-0 left-0 bg-[#00000080]"
+            onClick={() => setMenu(false)}
+          />
+          <div className="mobile-header fixed max-w-[320px] w-full h-screen right-0 top-0 bg-white">
+            asd
+          </div>
+        </MobileHeader>
+      )}
     </HeaderDiv>
   );
 };

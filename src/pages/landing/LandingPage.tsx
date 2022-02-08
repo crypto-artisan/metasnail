@@ -14,7 +14,7 @@ import SalesStagePart from "layouts/landing/salespart";
 const LandingPage = () => {
   return (
     <div className="w-full">
-      {/* <IntroPart /> */}
+      <IntroPart />
       {/* <SliderPart />
       <PlayEarnPart />
       <MeetTheHeroPart />

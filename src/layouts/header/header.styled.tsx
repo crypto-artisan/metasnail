@@ -121,3 +121,16 @@ export const HeaderDiv = styled.div`
     }
   }
 `;
+
+export const MobileHeader = styled.div<{ show: boolean }>`
+  .mobile-header-overlay {
+    transition: all 0.2s;
+    opacity: ${({ show }) => (show ? 1 : 0)};
+    visibility: ${({ show }) => (show ? "visible" : "hidden")};
+  }
+
+  .mobile-header {
+    transition: all 0.2s;
+    right: ${({ show }) => (show ? 0 : "-320px")};
+  }
+`;
