@@ -1,7 +1,13 @@
 import React from "react";
 import PlayCard from "./PlayCard";
 import PlayCard2 from "./PlayCard2";
-import { BgText, PlayEarnDiv, PlayOverlay } from "./playearn.styled";
+import ProgressBar from "./ProgressBar";
+import {
+  BgText,
+  EcosystemDiv,
+  PlayEarnDiv,
+  PlayOverlay,
+} from "./playearn.styled";
 
 const PlayEarnPart = () => {
   return (
@@ -65,6 +71,34 @@ const PlayEarnPart = () => {
           />
         </div>
       </div>
+      <EcosystemDiv className="max-w-[1200px] m-auto py-[150px] relative">
+        <div className="eco-title absolute pt-12">ecosystem</div>
+        <div className="grid grid-cols-2">
+          <div className="eco-text pt-16">
+            <h6 className="text-[#0EC6FF] text-sm font-bold uppercase relative flex items-center pl-5 mb-[15px]">
+              Tokenomics
+            </h6>
+            <h2 className="text-[#FF9200] leading-[48px] text-[61px] mb-[20px] font-black">
+              Token allocation
+            </h2>
+            <h1 className="text-white leading-[48px] text-[20px] font-black mb-[20px]">
+              1% buy tax goes to gaming pool
+            </h1>
+            <h1 className="text-white leading-[48px] text-[20px] font-black">
+              10 % sell tax goes to buy back and marketing
+            </h1>
+          </div>
+          <div className="w-[90%] ml-auto">
+            <ProgressBar title="Marketing" percent="5" />
+            <ProgressBar title="Team" percent="5" />
+            <ProgressBar title="Gaming Pool" percent="20" />
+            <ProgressBar title="Stacking" percent="5" />
+            <ProgressBar title="Airdrop" percent="5" />
+            <ProgressBar title="Private sale" percent="10" />
+            <ProgressBar title="Presale" percent="50" />
+          </div>
+        </div>
+      </EcosystemDiv>
     </PlayEarnDiv>
   );
 };

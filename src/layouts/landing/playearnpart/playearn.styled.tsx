@@ -120,3 +120,32 @@ export const PlayCard2Div = styled.div`
     }
   }
 `;
+
+export const EcosystemDiv = styled.div`
+  .eco-title {
+    -webkit-text-stroke-color: #ffffff26;
+    white-space: nowrap;
+    position: absolute;
+    z-index: 1;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 10.4vw;
+    font-weight: 900;
+    line-height: 72px;
+    color: #f1f6ff;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+  }
+  .eco-text {
+    h6 {
+      :before {
+        background: #0ec6ff;
+        position: absolute;
+        content: "";
+        width: 7px;
+        height: 7px;
+        left: 0;
+        border-radius: 50%;
+      }
+    }
+  }
+`;
