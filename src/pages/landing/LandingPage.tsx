@@ -5,6 +5,10 @@ import SliderPart from "layouts/landing/sliderpart";
 import PlayEarnPart from "layouts/landing/playearnpart";
 import MeetTheHeroPart from "layouts/landing/meettheheropart";
 import MetasnailsPart from "layouts/landing/metasnailspart";
+import HowToPart from "layouts/landing/howtopart";
+import RoadMapPart from "layouts/landing/roadmappart";
+
+import { HowToRoadMapDiv } from "layouts/landing/howtopart/howto.styled";
 
 const LandingPage = () => {
   return (
@@ -14,6 +18,13 @@ const LandingPage = () => {
       <PlayEarnPart />
       <MeetTheHeroPart />
       <MetasnailsPart />
+      <HowToRoadMapDiv className="relative bg-no-repeat">
+        <div className="howto-overlay absolute top-0 left-0 w-full h-full mix-blend-luminosity bg-no-repeat" />
+        <div className="max-w-[1200px] m-auto">
+          <HowToPart />
+          <RoadMapPart />
+        </div>
+      </HowToRoadMapDiv>
     </div>
   );
 };
