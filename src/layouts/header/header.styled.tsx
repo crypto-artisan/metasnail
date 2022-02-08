@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const HeaderDiv = styled.div`
+  top: 0;
+  transition: all 0.3s;
   .header-play-btn {
     :hover {
       filter: brightness(115%) contrast(100%) saturate(140%) blur(0px)
@@ -26,12 +28,14 @@ export const HeaderDiv = styled.div`
 
   .menu-item {
     position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
     :hover {
       color: #9ddddd !important;
     }
     :before {
-      left: auto;
       right: 0;
+      left: auto;
       position: absolute;
       height: 5px;
       width: 0%;
@@ -51,6 +55,7 @@ export const HeaderDiv = styled.div`
       width: 0%;
       bottom: -3px;
       left: 0;
+      right: auto;
       background: #00c3ff;
       content: "";
       display: block;
@@ -59,6 +64,18 @@ export const HeaderDiv = styled.div`
       border-bottom-right-radius: 0;
       border-bottom-left-radius: 5px;
       transition: all 0.3s linear;
+    }
+    :hover {
+      :before {
+        right: auto;
+        left: 50%;
+        width: 50%;
+      }
+      :after {
+        left: auto;
+        right: 50%;
+        width: 50%;
+      }
     }
   }
 `;
