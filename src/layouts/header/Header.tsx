@@ -7,6 +7,7 @@ import playbtn from "assets/buttons/Play.png";
 import { HeaderDiv } from "./header.styled";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { AiFillFire } from "react-icons/ai";
+import { IoMenu } from "react-icons/io5";
 
 const Header = () => {
   const [y, setY] = useState(0);
@@ -45,15 +46,15 @@ const Header = () => {
       id="header"
       className="fixed w-full border-b border-[#ffffff50] z-10"
     >
-      <div className="w-[92%] m-auto flex justify-between">
+      <div className="max-w-[1400px] w-[98%] m-auto flex justify-between">
         <div>
           <img
             src={logo}
             alt="logo"
-            className="w-[124px] py-6 cursor-pointer"
+            className="max-w-[124px] min-w-[124px] py-6 cursor-pointer"
           />
         </div>
-        <div className="flex  text-white font-black text-lg">
+        <div className="lg:flex hidden text-white font-black text-md xl:text-lg">
           <div>
             <div className="menu-item mx-[15px] flex items-center h-full">
               HOME
@@ -193,12 +194,17 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="self-center">
+        <div className="lg:block hidden self-center">
           <img
             src={playbtn}
             alt="playbtn"
-            className="header-play-btn w-[147px] cursor-pointer"
+            className="header-play-btn max-w-[147px] min-w-[147px] cursor-pointer"
           />
+        </div>
+        <div className="lg:hidden block self-center">
+          <span className="w-[50px] h-[50px] bg-white rounded-full text-[25px] cursor-pointer flex justify-center items-center">
+            <IoMenu />
+          </span>
         </div>
       </div>
     </HeaderDiv>

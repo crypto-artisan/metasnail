@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import {
   FaPlay,
@@ -29,16 +29,37 @@ import BuyBtn from "assets/buttons/buy-coin.png";
 import MintBtn from "assets/buttons/mint NFT.png";
 
 const IntroPart = () => {
+  useEffect(() => {
+    const animationMove: any = document.querySelector("#intro-character");
+    const handleAnimation = (e: any) => {
+      let halfWidth = window.innerWidth / 2;
+      let halfHeight = window.innerHeight / 2;
+      let x = e.clientX - halfWidth;
+      let y = e.clientY - halfHeight;
+
+      animationMove.style.transform = `translate(${
+        1 * y * ((1 / halfHeight) * 6)
+      }px, ${1 * x * ((2 / halfWidth) * 6)}px) rotateX(${
+        1 * y * ((1 / halfHeight) * 6)
+      }deg) rotateY(${1 * x * ((2 / halfWidth) * 6)}deg)`;
+    };
+    window.addEventListener("mousemove", handleAnimation);
+    return () => {
+      window.removeEventListener("mousemove", () => {});
+    };
+  }, []);
   return (
     <IntroPartSection className="pt-[265px] pb-[175px] relative bg-center bg-no-repeat bg-cover">
       <IntroOverlay className="absolute w-full h-full top-0 bg-center bg-no-repeat bg-cover bg-fixed" />
       <div className="grid grid-cols-2">
         <div>
-          <IntroImg
-            src={IntroCharacter}
-            alt="intro character"
-            className="opacity-90 hover:opacity-100"
-          />
+          <div id="intro-character">
+            <IntroImg
+              src={IntroCharacter}
+              alt="intro character"
+              className="opacity-90 hover:opacity-100"
+            />
+          </div>
           <IntroText className="w-[60%] m-auto">
             <h6 className="text-xs font-bold relative pl-5 pb-3">
               METAS /NAIL CONTRACT ADDRESS :

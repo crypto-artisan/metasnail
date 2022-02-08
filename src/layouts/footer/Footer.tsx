@@ -21,7 +21,7 @@ const Footer = () => {
           ></path>
         </svg>
       </div>
-      <div className="max-w-[1200px] m-auto flex justify-between">
+      <div className="max-w-[1200px] sm:w-[50%] w-[95%] lg:w-[98%] md:w-[80%] m-auto grid lg:grid-cols-4 md:grid-cols-2 gap-y-4">
         <div>
           <h5 className="text-white text-[20px] font-bold mb-[30px]">
             Services
@@ -123,13 +123,13 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between max-w-[1200px]  mx-auto !mt-[95px]">
+      <div className="md:flex-row flex-col items-center flex  justify-between max-w-[1200px]  mx-auto !mt-[95px]">
         <img
           src={footerLogo}
           alt="footerlogo"
           className="max-w-[555px] w-full"
         />
-        <p className="text-[#9ee8ff] font-normal text-base">
+        <p className="text-[#9ee8ff] font-normal text-base text-center md:text-left">
           Copyright © {new Date().getFullYear()} METASNAILS . All Rights
           Reserved.
         </p>
