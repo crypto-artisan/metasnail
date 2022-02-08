@@ -1,5 +1,6 @@
 import React from "react";
 import PlayCard from "./PlayCard";
+import PlayCard2 from "./PlayCard2";
 import { BgText, PlayEarnDiv, PlayOverlay } from "./playearn.styled";
 
 const PlayEarnPart = () => {
@@ -47,6 +48,20 @@ const PlayEarnPart = () => {
             icon={"flaticon-coding"}
             title="Secure Source code , audit and KYC Team"
             text="secured contract with 0 issues , KYC and transparent team"
+          />
+        </div>
+        <div className="m-auto w-[98%] max-w-[1200px] flex justify-between flex-wrap">
+          <PlayCard2
+            title="CMC , CGK Fast listing"
+            text="Fast listing on CMC CGK 48Hrs afterlaunch"
+          />
+          <PlayCard2
+            title="Locked LP 1 Year vesting from 3rd month"
+            text="LP Locked for 1 year with vesting 5% every 3 month starting from the 3rd month"
+          />
+          <PlayCard2
+            title="Beta Testers program"
+            text="Become a Beta tester for Metasnail and test all products before they go live , submit reveiws and feedback , get crypto rewards NFTs and more ..."
           />
         </div>
       </div>

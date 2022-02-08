@@ -101,3 +101,22 @@ export const PlayOverlay = styled.div`
   opacity: 0.11;
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 `;
+
+export const PlayCard2Div = styled.div`
+  :hover {
+    & > :first-child {
+      background-image: none;
+      background-color: white;
+    }
+  }
+  & > :first-child {
+    background-image: linear-gradient(145deg, #0039e4, #04dbf1);
+    transition: 0.5s all;
+    box-shadow: 8px 8px 20px 0px rgb(2 156 236 / 30%);
+  }
+  i {
+    :before {
+      font-size: 25px !important;
+    }
+  }
+`;
