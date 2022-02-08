@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 import introBG from "assets/hert.jpg";
 import introOverlay from "assets/bg-banner-home7.png";
@@ -9,7 +9,6 @@ export const IntroPartSection = styled.div`
   background-image: url(${introOverlay});
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   z-index: 1;
-  padding-top: 265px;
 `;
 
 export const IntroOverlay = styled.div`
@@ -67,5 +66,60 @@ export const BtnHowItworks = styled.div`
   div {
     transition: all 0.3s;
     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+  }
+`;
+
+export const ApplicationGrid = styled.div`
+  & > *:not(:first-child) {
+    margin-left: 30px;
+  }
+
+  svg {
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  font-size: 40px;
+`;
+
+export const IntroText = styled.div`
+  h6 {
+    display: flex;
+    align-items: center;
+    :before {
+      position: absolute;
+      content: "";
+      width: 7px;
+      height: 7px;
+      left: 0;
+      border-radius: 50%;
+      background: #000000;
+    }
+  }
+  img {
+    transition: all 0.3s;
+    filter: brightness(100%) contrast(100%) saturate(200%) blur(0px)
+      hue-rotate(360deg);
+    :hover {
+      filter: brightness(115%) contrast(100%) saturate(140%) blur(0px)
+        hue-rotate(360deg);
+      animation-name: elementor-animation-pulse-grow;
+      animation-duration: 0.6s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+  }
+
+  @keyframes elementor-animation-pulse-grow {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
 `;

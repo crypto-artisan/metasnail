@@ -5,6 +5,10 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 // Import Pages
 import LandingPage from "pages/landing/LandingPage";
 
+// Import css
+import "swiper/css";
+import "swiper/css/pagination";
+
 function App() {
   return (
     <Router>

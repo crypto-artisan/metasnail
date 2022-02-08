@@ -1,8 +1,15 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { FaPlay } from "react-icons/fa";
+import {
+  FaPlay,
+  FaWindows,
+  FaApple,
+  FaAndroid,
+  FaInternetExplorer,
+} from "react-icons/fa";
 
 import {
+  ApplicationGrid,
   BtnGetMyDiscount,
   BtnHowItworks,
   IntroCard,
@@ -10,12 +17,18 @@ import {
   IntroImg,
   IntroOverlay,
   IntroPartSection,
+  IntroText,
 } from "./intropart.styled";
 
 import IntroCharacter from "assets/characters/intro_1.png";
+import CardBtn1 from "assets/buttons/coinmarketcap-kiradoge.png";
+import CardBtn2 from "assets/buttons/coingecko.png";
+import ChartBtn from "assets/buttons/chart.png";
+import PlayBtn from "assets/buttons/Play.png";
+
 const IntroPart = () => {
   return (
-    <IntroPartSection className="relative bg-center bg-no-repeat bg-cover">
+    <IntroPartSection className="pt-[265px] pb-[175px] relative bg-center bg-no-repeat bg-cover">
       <IntroOverlay className="absolute w-full h-full top-0 bg-center bg-no-repeat bg-cover bg-fixed" />
       <div className="grid grid-cols-2">
         <div>
@@ -24,18 +37,30 @@ const IntroPart = () => {
             alt="intro character"
             className="opacity-90 hover:opacity-100"
           />
+          <IntroText className="w-[60%] m-auto">
+            <h6 className="text-xs font-bold relative pl-5 pb-3">
+              METAS /NAIL CONTRACT ADDRESS :
+            </h6>
+            <h2 className="text-white text-base font-black relative mb-5">
+              0x00e1656e45f18ec6747f5a8496fd39b50b38396d
+            </h2>
+            <div className="relative flex justify-between">
+              <img src={ChartBtn} className="w-[45%]" />
+              <img src={PlayBtn} className="w-[45%]" />
+            </div>
+          </IntroText>
         </div>
         <div>
-          <IntroCard className="px-24 py-10 w-fit relative">
+          <IntroCard className="px-24 py-14 w-fit relative">
             <IntroCardOverlay className="absolute top-0 left-0 w-full h-full -z-[1] mix-blend-darken" />
             <h6 className="text-white uppercase font-bold">Metasnails !</h6>
             <h2 className="text-[#E17B00] text-[40px] font-black">
               New Generation OF P2E !
             </h2>
-            <p className="text-white text-[22px] pt-16 pb-5">
+            <p className="text-white text-[22px] pt-20 pb-5">
               Get MS coin 1.5X cheaper than launch price !
             </p>
-            <p className="text-white text-[22px] pb-16">
+            <p className="text-white text-[22px] pb-20">
               and mint your Heros NFTs before launch !!
             </p>
             <div className="flex items-center">
@@ -55,6 +80,39 @@ const IntroPart = () => {
                 <br />
                 Works
               </p>
+            </div>
+            <ApplicationGrid className="flex pt-10 items-center">
+              <div className="text-white hover:text-[#00A9FF]">
+                <FaWindows />
+              </div>
+              <div className="text-white hover:text-[#CFCFCF]">
+                <FaApple />
+              </div>
+              <div className="text-[#00C526] hover:text-[#60FF6A]">
+                <FaAndroid />
+              </div>
+              <div className="text-[#3BD6FF] hover:text-[#00AFFF]">
+                <FaInternetExplorer />
+              </div>
+            </ApplicationGrid>
+            <div className="flex justify-between pt-20 pb-[70px]">
+              <div className="w-[45%]">
+                <img
+                  src={CardBtn1}
+                  alt="cardbutton1"
+                  className="rounded-full"
+                />
+                <p className="text-white font-black text-center pt-1">
+                  Super Fast listing !
+                </p>
+              </div>
+              <div className="w-[45%]">
+                <img
+                  src={CardBtn2}
+                  alt="cardbutton2"
+                  className="rounded-full"
+                />
+              </div>
             </div>
           </IntroCard>
         </div>
