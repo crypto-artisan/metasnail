@@ -40,8 +40,6 @@ const Header = () => {
     };
   }, [handleNavigation]);
 
-  const handleOnScroll = (e: any) => {};
-
   return (
     <HeaderDiv
       id="header"

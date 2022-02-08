@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import IntroPart from "layouts/landing/intropart";
 import SliderPart from "layouts/landing/sliderpart";
