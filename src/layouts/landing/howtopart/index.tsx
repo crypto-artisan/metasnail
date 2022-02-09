@@ -121,7 +121,7 @@ export const HowToCard = (props: any) => {
       </div>
 
       <div
-        className={`rounded-full ${props.bgColor} text-center p-[50px] h-max`}
+        className={`rounded-[110px] ${props.bgColor} text-center p-[50px] h-max`}
       >
         <img src={props.img} alt="howto1" />
         <h5 className="text-[22px] font-bold my-[15px] text-[#1a1b1e]">

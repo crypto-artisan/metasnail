@@ -55,7 +55,7 @@ const Header = () => {
   return (
     <HeaderDiv
       id="header"
-      className="fixed w-full border-b border-[#ffffff50] z-10"
+      className="fixed w-full border-b border-[#ffffff50] z-50"
     >
       <div className="max-w-[1400px] w-[98%] m-auto flex justify-between">
         <div>

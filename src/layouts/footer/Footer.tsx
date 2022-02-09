@@ -20,7 +20,7 @@ const Footer = () => {
           ></path>
         </svg>
       </div>
-      <div className="max-w-[1200px] sm:w-[50%] w-[95%] lg:w-[98%] md:w-[80%] m-auto grid lg:grid-cols-4 md:grid-cols-2 gap-y-4">
+      <div className="max-w-[1200px] sm:w-[50%] w-[80%] lg:w-[98%] md:w-[80%] m-auto grid lg:grid-cols-4 md:grid-cols-2 gap-y-4">
         <div>
           <h5 className="text-white text-[20px] font-bold mb-[30px]">
             Services

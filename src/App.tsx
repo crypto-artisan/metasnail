@@ -42,7 +42,7 @@ function App() {
       <img
         src={buyBtn}
         alt="button"
-        className="fixed -bottom-[60px] bottom-btn max-w-[300px] z-50"
+        className="fixed -bottom-[60px] bottom-btn max-w-[300px] z-10"
       />
     </Router>
   ) : (
