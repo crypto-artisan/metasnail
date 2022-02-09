@@ -231,7 +231,7 @@ const Header = () => {
               className="absolute top-3 right-3 text-[30px] cursor-pointer"
               onClick={() => setMenu(false)}
             />
-            <Accordion defaultActiveKey="0">
+            <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header className="">Home</Accordion.Header>
                 <Accordion.Body>

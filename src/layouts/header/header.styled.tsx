@@ -130,6 +130,7 @@ export const MobileHeader = styled.div<{ show: boolean }>`
   }
 
   .mobile-header {
+    overflow: scroll;
     transition: all 0.2s;
     right: ${({ show }) => (show ? 0 : "-320px")};
   }
