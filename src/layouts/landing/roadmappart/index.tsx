@@ -7,7 +7,7 @@ import { Accordion } from "react-bootstrap";
 const RoadMapPart = () => {
   return (
     <RoadMapDiv className="relative">
-      <div className="pt-[200px] pb-[90px]">
+      <div className="md:pt-[200px] md:pb-[90px] py-10">
         <h6 className="text-[#0EC6FF] metasnail-h6 text-sm font-bold uppercase relative flex items-center pl-5 mb-[15px]">
           METASNAILS TIMELINE
         </h6>

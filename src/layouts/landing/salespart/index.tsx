@@ -13,7 +13,7 @@ const SalesStagePart = () => {
   return (
     <SalesPartDiv className="relative bg-[#0049b1] bg-no-repeat">
       <div className="sale-overlay bg-no-repeat w-full h-full top-0 left-0 absolute" />
-      <div className="max-w-[1200px] m-auto relative">
+      <div className="max-w-[1200px] w-[90%] m-auto relative">
         <div className="sale-card w-full h-full absolute" />
         <div className="relative p-[15px]">
           <div className="pt-2 text-center">
@@ -32,8 +32,8 @@ const SalesStagePart = () => {
               }
             </p>
           </div>
-          <div className="flex mb-4 pt-2">
-            <div className="w-[50%] flex justify-around">
+          <div className="flex mb-4 pt-2 md:flex-row flex-col">
+            <div className="md:w-[50%] flex justify-around">
               <div>
                 <span className="text-white text-center leading-10 text-[35px] font-black">
                   93
@@ -66,12 +66,12 @@ const SalesStagePart = () => {
                 </p>
               </div>
             </div>
-            <div className="w-[50%] text-white font-black text-4xl">
+            <div className="text-center md:w-[50%] px-[15px] text-white font-black text-4xl">
               For NFT presale and private sale to start !
             </div>
           </div>
-          <div className="flex sale-card-group">
-            <div className="w-[-webkit-fill-available] mx-[15px] relative">
+          <div className="flex sale-card-group md:flex-row flex-col">
+            <div className="w-[-webkit-fill-available] mb-[15px] mx-[15px] relative">
               <div className="sale-card-1 relative flex flex-col items-center rounded-[15px] bg-[#FF4B38] px-[30px] pt-[56px]">
                 <span className="card-marker absolute bg-white text-[#FE4C1C] top-[30px] text-[13px] uppercase left-0 py-2 px-3 rounded-r-[17px] font-bold">
                   Private sale starts soon !
@@ -97,14 +97,14 @@ const SalesStagePart = () => {
               </div>
               <div className="-mt-[25px]">
                 <div className="anim-btn m-auto bg-white h-fit text-[#FE4C1C] rounded-full text-base relative font-bold flex items-center p-[5px] border-x border-white cursor-pointer w-max">
-                  <span className="px-4">Buy Private sale</span>
+                  <span className="px-3">Buy Private sale</span>
                   <div className="p-[12px] bg-[#FE4C1C] text-white rounded-full">
                     <HiArrowNarrowRight />
                   </div>
                 </div>
               </div>
             </div>
-            <div className="w-[-webkit-fill-available] mx-[15px] relative">
+            <div className="w-[-webkit-fill-available] mb-[15px] mx-[15px] relative">
               <div className="sale-card-2 flex flex-col items-center relative  rounded-[15px] px-[30px] pt-[56px]">
                 <span className="card-marker absolute bg-[#00c3ff] text-white top-[30px] text-[13px] uppercase left-0 py-2 px-3 rounded-r-[17px] font-bold">
                   NFT PRESALE STARTS SOON !
@@ -130,14 +130,14 @@ const SalesStagePart = () => {
               </div>
               <div className="-mt-[25px]">
                 <div className="anim-btn m-auto bg-[#00c3ff] h-fit text-white rounded-full text-base relative font-bold flex items-center p-[5px] border-x border-[#00c3ff] cursor-pointer w-max">
-                  <span className="px-4">Buy Private</span>
+                  <span className="px-3">Buy Private</span>
                   <div className="p-[12px] bg-white text-[#00c3ff] rounded-full">
                     <HiArrowNarrowRight />
                   </div>
                 </div>
               </div>
             </div>
-            <div className="w-[-webkit-fill-available] mx-[15px] relative">
+            <div className="w-[-webkit-fill-available] mb-[15px] mx-[15px] relative">
               <div className="sale-card-3 flex flex-col items-center relative  rounded-[15px] px-[30px] pt-[56px]">
                 <span className="card-marker absolute bg-[#0160e7] text-white top-[30px] text-[13px] uppercase left-0 py-2 px-3 rounded-r-[17px] font-bold">
                   Monthly Package
@@ -163,7 +163,7 @@ const SalesStagePart = () => {
               </div>
               <div className="-mt-[25px]">
                 <div className="anim-btn m-auto bg-[#00c3ff] h-fit text-white rounded-full text-base relative font-bold flex items-center p-[5px] border-x border-[#00c3ff] cursor-pointer w-max">
-                  <span className="px-4">Choose Plane</span>
+                  <span className="px-3">Choose Plane</span>
                   <div className="p-[12px] bg-white text-[#00c3ff] rounded-full">
                     <HiArrowNarrowRight />
                   </div>
@@ -172,11 +172,11 @@ const SalesStagePart = () => {
             </div>
           </div>
         </div>
-        <div className="pt-[165px] flex justify-between items-center">
+        <div className="md:pt-[165px] pt-[100px] flex justify-between md:flex-row flex-col items-center">
           <div>
             <img src={character} alt="character" />
           </div>
-          <div className="max-w-[485px] w-full">
+          <div className="max-w-[485px] w-[95%]">
             <div className="">
               <h6 className="text-[#0EC6FF] sale-title-h6 text-sm font-bold uppercase relative flex items-center pl-5 mb-[15px]">
                 WORK WITH METASNAILS TEAM !

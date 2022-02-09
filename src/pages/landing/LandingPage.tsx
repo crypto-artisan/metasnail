@@ -18,15 +18,15 @@ const LandingPage = () => {
       <SliderPart />
       <PlayEarnPart />
       <MeetTheHeroPart />
-      {/*   <MetasnailsPart />
+      <MetasnailsPart />
       <HowToRoadMapDiv className="relative bg-no-repeat">
         <div className="howto-overlay absolute top-0 left-0 w-full h-full mix-blend-luminosity bg-no-repeat" />
-        <div className="max-w-[1200px] m-auto">
+        <div className="max-w-[1200px] m-auto w-[95%]">
           <HowToPart />
           <RoadMapPart />
         </div>
-      </HowToRoadMapDiv> */}
-      {/* <SalesStagePart /> */}
+      </HowToRoadMapDiv>
+      <SalesStagePart />
     </div>
   );
 };
