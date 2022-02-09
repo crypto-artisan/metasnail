@@ -3,7 +3,7 @@ import { PlayCard2Div } from "./playearn.styled";
 
 const PlayCard2 = (props: any) => {
   return (
-    <PlayCard2Div className="relative rounded-2xl py-[47px] max-w-[360px] w-full flex mb-8">
+    <PlayCard2Div className="relative rounded-2xl py-[47px] max-w-[350px] w-full flex mb-8">
       <div className="bg-black min-w-[60px] h-[60px] flex items-center justify-center rounded-full mr-6">
         <i className={`flaticon-pie-chart text-[#0EC6FF]`} />
       </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import slider1 from "assets/slider/1.png";
@@ -9,10 +9,21 @@ import slider5 from "assets/slider/5.png";
 import { SliderPartDiv } from "./sliderpart.styled";
 
 const SliderPart = () => {
+  const [screen, setscreen] = useState(0);
+  useEffect(() => {
+    window.addEventListener("resize", () => setscreen(window.innerWidth));
+    setscreen(window.innerWidth);
+    return () => {
+      window.removeEventListener("resize", () => {});
+    };
+  }, []);
+
   return (
     <SliderPartDiv className="mix-blend-darken border-t border-b border-[white] ">
       <Swiper
-        slidesPerView={5}
+        slidesPerView={
+          screen > 1024 ? 5 : screen > 768 ? 4 : screen > 560 ? 3 : 2
+        }
         spaceBetween={30}
         slidesPerGroup={1}
         loop={true}

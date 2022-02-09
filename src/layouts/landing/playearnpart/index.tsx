@@ -25,7 +25,7 @@ const PlayEarnPart = () => {
       </div>
       <div className="relative">
         <PlayOverlay className="absolute top-0 w-full h-full" />
-        <div className="m-auto w-[98%] max-w-[1200px] flex justify-between flex-wrap">
+        <div className="m-auto w-[90%] max-w-[1200px] flex justify-center md:justify-between flex-wrap">
           <PlayCard
             icon={"flaticon-pie-chart"}
             title="Flexible and fixed stacking plans"
@@ -56,7 +56,7 @@ const PlayEarnPart = () => {
             text="secured contract with 0 issues , KYC and transparent team"
           />
         </div>
-        <div className="m-auto w-[98%] max-w-[1200px] flex justify-between flex-wrap">
+        <div className="m-auto w-[90%] max-w-[1200px] flex justify-center md:justify-between flex-wrap">
           <PlayCard2
             title="CMC , CGK Fast listing"
             text="Fast listing on CMC CGK 48Hrs afterlaunch"
@@ -71,14 +71,14 @@ const PlayEarnPart = () => {
           />
         </div>
       </div>
-      <EcosystemDiv className="max-w-[1200px] m-auto py-[150px] relative">
+      <EcosystemDiv className="max-w-[1200px] w-[95%] m-auto py-[150px] relative">
         <div className="eco-title absolute pt-12">ecosystem</div>
-        <div className="grid grid-cols-2">
+        <div className="grid md:grid-cols-2">
           <div className="eco-text pt-16">
             <h6 className="text-[#0EC6FF] text-sm font-bold uppercase relative flex items-center pl-5 mb-[15px]">
               Tokenomics
             </h6>
-            <h2 className="text-[#FF9200] leading-[48px] text-[61px] mb-[20px] font-black">
+            <h2 className="text-[#FF9200] leading-[48px] text-[61px] mb-[20px] font-black break-all">
               Token allocation
             </h2>
             <h1 className="text-white leading-[48px] text-[20px] font-black mb-[20px]">
@@ -88,7 +88,7 @@ const PlayEarnPart = () => {
               10 % sell tax goes to buy back and marketing
             </h1>
           </div>
-          <div className="w-[90%] ml-auto">
+          <div className="md:w-[90%] w-full ml-auto md:mt-0 mt-8">
             <ProgressBar title="Marketing" percent="w-[5%]" label="5%" />
             <ProgressBar title="Team" percent="w-[5%]" label="5%" />
             <ProgressBar title="Gaming Pool" percent="w-[20%]" label="20%" />

@@ -58,8 +58,6 @@ export const ApplicationGrid = styled.div`
     transition: all 0.5s;
     cursor: pointer;
   }
-
-  /* font-size: 40px; */
 `;
 
 export const IntroText = styled.div`

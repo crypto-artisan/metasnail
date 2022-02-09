@@ -8,7 +8,7 @@ const MeetTheHeroPart = () => {
   return (
     <MeetPartDiv className="px-[15px] bg-[#0049B1]">
       <div>
-        <div className="max-w-[1300px] m-auto grid grid-cols-2">
+        <div className="max-w-[1300px] m-auto grid md:grid-cols-2">
           <div className="px-[15px] py-[60px]">
             <h6 className="text-[#0EC6FF] text-sm font-bold uppercase relative flex items-center pl-5 mb-[15px]">
               NFT
@@ -36,7 +36,7 @@ const MeetTheHeroPart = () => {
             <img
               src={lebraniya}
               alt="lebraniya"
-              className="ml-auto lebraniya"
+              className="md:ml-auto md:mr-0 mx-auto lebraniya"
             />
           </div>
         </div>
