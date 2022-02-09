@@ -15,6 +15,7 @@ import ScrollTop from "components/scrolltop";
 
 import logo from "assets/buttons/Metasnails text shadow.png";
 import styled from "styled-components";
+import buyBtn from "assets/buttons/Buy.png";
 
 const LoaderOverlay = styled.div`
   background-image: url(${logo});
@@ -43,6 +44,11 @@ function App() {
       <Header />
       <Route exact path="/" component={LandingPage} />
       <Footer />
+      <img
+        src={buyBtn}
+        alt="button"
+        className="fixed -bottom-[60px] bottom-btn max-w-[300px] z-50"
+      />
     </Router>
   ) : (
     <div className="bg-[#e6d4c1] w-full h-screen flex flex-col justify-center items-center">

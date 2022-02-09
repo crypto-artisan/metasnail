@@ -2,7 +2,6 @@ import React from "react";
 import { FooterDiv } from "./footer.styled";
 
 import footerLogo from "assets/buttons/Metasnails text shadow.png";
-import buyBtn from "assets/buttons/Buy.png";
 
 const Footer = () => {
   return (
@@ -134,11 +133,6 @@ const Footer = () => {
           Reserved.
         </p>
       </div>
-      <img
-        src={buyBtn}
-        alt="button"
-        className="absolute -bottom-[180px] bottom-btn max-w-[300px]"
-      />
     </FooterDiv>
   );
 };
