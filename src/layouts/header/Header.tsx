@@ -7,6 +7,8 @@ import playbtn from "assets/buttons/Play.png";
 import { HeaderDiv, MobileHeader } from "./header.styled";
 import { AiFillFire } from "react-icons/ai";
 import { IoMenu } from "react-icons/io5";
+import { IoCloseSharp } from "react-icons/io5";
+import { Accordion } from "react-bootstrap";
 
 const Header = () => {
   const [y, setY] = useState(0);
@@ -224,8 +226,67 @@ const Header = () => {
             className="mobile-header-overlay fixed w-full h-full top-0 left-0 bg-[#00000080]"
             onClick={() => setMenu(false)}
           />
-          <div className="mobile-header fixed max-w-[320px] w-full h-screen right-0 top-0 bg-white">
-            asd
+          <div className="mobile-header pt-14 px-8 fixed max-w-[320px] w-full h-screen right-0 top-0 bg-white">
+            <IoCloseSharp
+              className="absolute top-3 right-3 text-[30px] cursor-pointer"
+              onClick={() => setMenu(false)}
+            />
+            <Accordion defaultActiveKey="0">
+              <Accordion.Item eventKey="0">
+                <Accordion.Header className="">Home</Accordion.Header>
+                <Accordion.Body>
+                  <p>Main Home</p>
+                  <p>SEO Agency</p>
+                  <p>Marketing Company</p>
+                  <p>Digital Marketing</p>
+                  <p>SEO Company</p>
+                  <p>Business SEO</p>
+                  <p>SaaS Home</p>
+                  <p>SEO Consultant</p>
+                  <p>Digital Agency</p>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header className="">Pages</Accordion.Header>
+                <Accordion.Body>
+                  <p>About Us</p>
+                  <p>Our Team</p>
+                  <p>Sigle Team</p>
+                  <p>Our Process</p>
+                  <p>FAQs</p>
+                  <p>Shop</p>
+                  <p>Coming Soon</p>
+                  <p>Elements</p>
+                  <p>Typography</p>
+                  <p>404 Error</p>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="2">
+                <Accordion.Header className="">Services</Accordion.Header>
+                <Accordion.Body>
+                  <p>Content Marketing</p>
+                  <p>App Development</p>
+                  <p>Search Engine Optimization</p>
+                  <p>PPC Management</p>
+                  <p>Social Media Marketing</p>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="3">
+                <Accordion.Header className="">Blog</Accordion.Header>
+                <Accordion.Body>
+                  <p>Blog List</p>
+                  <p>Blog Grid</p>
+                  <p>Blog Single</p>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="4">
+                <Accordion.Header className="">Contacts</Accordion.Header>
+                <Accordion.Body>
+                  <p>Contact Us</p>
+                  <p>Free a Quote</p>
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
           </div>
         </MobileHeader>
       )}

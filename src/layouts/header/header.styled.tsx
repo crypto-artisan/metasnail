@@ -133,4 +133,68 @@ export const MobileHeader = styled.div<{ show: boolean }>`
     transition: all 0.2s;
     right: ${({ show }) => (show ? 0 : "-320px")};
   }
+  .accordion-item {
+    contain: content;
+    border: 1px solid white;
+    background-color: #ffffff33;
+  }
+  .accordion-button {
+    padding: 15px 0 15px 0;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s;
+
+    cursor: pointer;
+    :focus {
+      box-shadow: none;
+    }
+    color: #b60707;
+  }
+  .accordion-button.collapsed {
+    transition: all 0.3s;
+    color: black;
+    background-color: #ffffff33;
+  }
+  .accordion-collapse.collapse {
+    transition: all 0.3s;
+  }
+  .accordion-body {
+    padding: 0;
+    padding-left: 25px;
+    p {
+      padding: 10px 0;
+      margin: 0;
+      border-bottom: 1px solid #ddd;
+      transition: all 0.3s;
+      cursor: pointer;
+      :hover {
+        background-color: #ddd;
+        color: #b60707;
+      }
+    }
+  }
+  .accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+  }
+  .accordion > *:not(:last-child) {
+    .accordion-button {
+      border-bottom: 1px solid #ddd;
+    }
+  }
+  .accordion-button:not(.collapsed) {
+    background: transparent;
+  }
+  .accordion-button {
+    :after {
+      transform: rotate(-90deg);
+      background-size: 15px;
+      width: 15px;
+      height: 15px;
+    }
+  }
+  .accordion-button:not(.collapsed) {
+    :after {
+      transform: rotate(0deg);
+    }
+  }
 `;
