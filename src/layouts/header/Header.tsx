@@ -235,55 +235,57 @@ const Header = () => {
               <Accordion.Item eventKey="0">
                 <Accordion.Header className="">Home</Accordion.Header>
                 <Accordion.Body>
-                  <p>Main Home</p>
-                  <p>SEO Agency</p>
-                  <p>Marketing Company</p>
-                  <p>Digital Marketing</p>
-                  <p>SEO Company</p>
-                  <p>Business SEO</p>
-                  <p>SaaS Home</p>
-                  <p>SEO Consultant</p>
-                  <p>Digital Agency</p>
+                  <p onClick={() => setMenu(false)}>Main Home</p>
+                  <p onClick={() => setMenu(false)}>SEO Agency</p>
+                  <p onClick={() => setMenu(false)}>Marketing Company</p>
+                  <p onClick={() => setMenu(false)}>Digital Marketing</p>
+                  <p onClick={() => setMenu(false)}>SEO Company</p>
+                  <p onClick={() => setMenu(false)}>Business SEO</p>
+                  <p onClick={() => setMenu(false)}>SaaS Home</p>
+                  <p onClick={() => setMenu(false)}>SEO Consultant</p>
+                  <p onClick={() => setMenu(false)}>Digital Agency</p>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
                 <Accordion.Header className="">Pages</Accordion.Header>
                 <Accordion.Body>
-                  <p>About Us</p>
-                  <p>Our Team</p>
-                  <p>Sigle Team</p>
-                  <p>Our Process</p>
-                  <p>FAQs</p>
-                  <p>Shop</p>
-                  <p>Coming Soon</p>
-                  <p>Elements</p>
-                  <p>Typography</p>
-                  <p>404 Error</p>
+                  <p onClick={() => setMenu(false)}>About Us</p>
+                  <p onClick={() => setMenu(false)}>Our Team</p>
+                  <p onClick={() => setMenu(false)}>Sigle Team</p>
+                  <p onClick={() => setMenu(false)}>Our Process</p>
+                  <p onClick={() => setMenu(false)}>FAQs</p>
+                  <p onClick={() => setMenu(false)}>Shop</p>
+                  <p onClick={() => setMenu(false)}>Coming Soon</p>
+                  <p onClick={() => setMenu(false)}>Elements</p>
+                  <p onClick={() => setMenu(false)}>Typography</p>
+                  <p onClick={() => setMenu(false)}>404 Error</p>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
                 <Accordion.Header className="">Services</Accordion.Header>
                 <Accordion.Body>
-                  <p>Content Marketing</p>
-                  <p>App Development</p>
-                  <p>Search Engine Optimization</p>
-                  <p>PPC Management</p>
-                  <p>Social Media Marketing</p>
+                  <p onClick={() => setMenu(false)}>Content Marketing</p>
+                  <p onClick={() => setMenu(false)}>App Development</p>
+                  <p onClick={() => setMenu(false)}>
+                    Search Engine Optimization
+                  </p>
+                  <p onClick={() => setMenu(false)}>PPC Management</p>
+                  <p onClick={() => setMenu(false)}>Social Media Marketing</p>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="3">
                 <Accordion.Header className="">Blog</Accordion.Header>
                 <Accordion.Body>
-                  <p>Blog List</p>
-                  <p>Blog Grid</p>
-                  <p>Blog Single</p>
+                  <p onClick={() => setMenu(false)}>Blog List</p>
+                  <p onClick={() => setMenu(false)}>Blog Grid</p>
+                  <p onClick={() => setMenu(false)}>Blog Single</p>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="4">
                 <Accordion.Header className="">Contacts</Accordion.Header>
                 <Accordion.Body>
-                  <p>Contact Us</p>
-                  <p>Free a Quote</p>
+                  <p onClick={() => setMenu(false)}>Contact Us</p>
+                  <p onClick={() => setMenu(false)}>Free a Quote</p>
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
