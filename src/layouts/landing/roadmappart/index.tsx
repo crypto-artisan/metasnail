@@ -21,7 +21,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/2714.svg"
@@ -31,7 +30,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/2714.svg"
@@ -41,7 +39,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/2714.svg"
@@ -51,7 +48,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/2714.svg"
@@ -63,7 +59,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
@@ -73,7 +68,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
@@ -90,7 +84,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
@@ -100,7 +93,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
@@ -110,7 +102,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
@@ -122,7 +113,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
@@ -134,7 +124,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
@@ -144,7 +133,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
@@ -161,7 +149,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
@@ -171,7 +158,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
@@ -181,7 +167,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
@@ -191,7 +176,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
@@ -201,7 +185,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
@@ -211,7 +194,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
@@ -226,7 +208,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
@@ -236,7 +217,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"
@@ -246,7 +226,6 @@ const RoadMapPart = () => {
               <p className="mb-[20px] text-base">
                 <img
                   draggable="false"
-                  role="img"
                   className="emoji"
                   alt="✔"
                   src="https://s.w.org/images/core/emoji/13.1.0/svg/1f55b.svg"

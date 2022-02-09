@@ -14,12 +14,7 @@ import SocialButtonsGroup from "components/socialbuttongroup";
 import ScrollTop from "components/scrolltop";
 
 import logo from "assets/buttons/Metasnails text shadow.png";
-import styled from "styled-components";
 import buyBtn from "assets/buttons/Buy.png";
-
-const LoaderOverlay = styled.div`
-  background-image: url(${logo});
-`;
 
 function App() {
   const [loading, setLoading] = useState(false);
