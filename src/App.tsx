@@ -15,6 +15,7 @@ import ScrollTop from "components/scrolltop";
 
 import logo from "assets/buttons/Metasnails text shadow.png";
 import buyBtn from "assets/buttons/Buy.png";
+import { MyMark } from "components/MyMark";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -32,28 +33,33 @@ function App() {
       }
     }, 30);
   }, []);
-  return !loading ? (
-    <Router>
-      <SocialButtonsGroup />
-      <ScrollTop />
-      <Header />
-      <Route exact path="/" component={LandingPage} />
-      <Footer />
-      <img
-        src={buyBtn}
-        alt="button"
-        className="fixed -bottom-[60px] bottom-btn max-w-[300px] z-10"
-      />
-    </Router>
-  ) : (
-    <div className="bg-[#e6d4c1] w-full h-screen flex flex-col justify-center items-center">
-      <div className="relative max-w-[300px]">
-        <img src={logo} alt="logo" className="max-w-[300px] w-full" />
-      </div>
-      <span className="font-medium text-[20px] mt-8" id="loader-count">
-        {count} %
-      </span>
-    </div>
+  return (
+    <>
+      {!loading ? (
+        <Router>
+          <SocialButtonsGroup />
+          <ScrollTop />
+          <Header />
+          <Route exact path="/" component={LandingPage} />
+          <Footer />
+          <img
+            src={buyBtn}
+            alt="button"
+            className="fixed -bottom-[60px] bottom-btn max-w-[300px] z-10"
+          />
+        </Router>
+      ) : (
+        <div className="bg-[#e6d4c1] w-full h-screen flex flex-col justify-center items-center">
+          <div className="relative max-w-[300px]">
+            <img src={logo} alt="logo" className="max-w-[300px] w-full" />
+          </div>
+          <span className="font-medium text-[20px] mt-8" id="loader-count">
+            {count} %
+          </span>
+        </div>
+      )}
+      <MyMark />
+    </>
   );
 }
 
